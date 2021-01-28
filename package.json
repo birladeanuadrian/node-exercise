@@ -1,0 +1,28 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mocha -r ts-node/register \"./tests/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birladeanuadrian/node-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birladeanuadrian/node-exercise/issues"
+  },
+  "homepage": "https://github.com/birladeanuadrian/node-exercise#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
